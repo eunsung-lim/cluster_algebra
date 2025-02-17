@@ -9,6 +9,6 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     packages=find_packages(),  # Automatically find and include your package
-    install_requires=[],  # Add any dependencies here
+    install_requires=open("requirements.txt").read().splitlines(),  # Add any dependencies here
     python_requires=">=3.7",  # Specify compatible Python versions
 )
