@@ -193,3 +193,5 @@ cython_debug/
 
 notes/
 history/
+FSPAC2025/
+.vscode/
